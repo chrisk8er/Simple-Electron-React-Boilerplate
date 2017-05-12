@@ -2,9 +2,11 @@
   "name": "quickstart-electron-react-boilerplate",
   "version": "1.0.0",
   "description": "Simple quickstart electron react boilerplate",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,11 @@
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
     "electron": "^1.6.7",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.17.0",
     "webpack": "^2.5.1"
   },
   "dependencies": {
