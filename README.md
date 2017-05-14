@@ -15,4 +15,4 @@ $ npm install
 ```
 
 ## Run
-Open two cmd windows, first run `npm run dev`. Then run `npm start` on the other cmd window.
+Open two cmd windows, first run `npm run dev`. Then `npm start` on the other cmd window.
