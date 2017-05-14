@@ -1,5 +1,5 @@
 # Simple-Electron-React-Boilerplate
-Simple quickstart electron react boilerplate
+Simple quickstart electron react boilerplate with less. 
 
 ## Install
 Clone this repository and run npm install.
