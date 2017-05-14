@@ -13,3 +13,6 @@ $ cd Simple-Electron-React-Boilerplate
 # Install the dependencies
 $ npm install
 ```
+
+## Run
+Open two cmd windows, first run `npm run dev`. Then run `npm start` on the other cmd window.
