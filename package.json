@@ -1,6 +1,6 @@
 {
   "name": "quickstart-electron-react-boilerplate",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Simple quickstart electron react boilerplate",
   "main": "main.js",
   "scripts": {
