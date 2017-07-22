@@ -16,7 +16,11 @@ module.exports = {
         { test: /\.js$/,
           exclude: /(node_modules|bower_components)/,
           use: {
-            loader: 'babel-loader'
+            loader: 'babel-loader',
+            options: {
+              presets: ["react", 
+                        "es2015"]
+            }
           }
         },
         { 
@@ -33,5 +37,12 @@ module.exports = {
     title: 'Electron Boilerplate',
     filename: 'index.html',
     template: 'src/index.ejs'
-  })]
+  })],
+
+  devServer: {
+    contentBase: path.join(__dirname, "app"),
+    watchContentBase: true,
+    compress: true,
+    port: 9000
+  }
 };

@@ -1,4 +1,6 @@
 const electron = require('electron')
+const { default: installExtension, REDUX_DEVTOOLS } = require('electron-devtools-installer');
+
 // Module to control application life.
 const app = electron.app
 const Menu = electron.Menu
@@ -18,14 +20,14 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 800, height: 600})
 
   // and load the index.html of the app.
-  mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, "app", 'index.html'),
-    protocol: 'file:',
-    slashes: true
-  }))
+  mainWindow.loadURL('http://localhost:9000')
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
+
+  installExtension(REDUX_DEVTOOLS)
+      .then((name) => console.log(`Added Extension:  ${name}`))
+      .catch((err) => console.log('An error occurred: ', err));
 
   // Create menu template
   const menuTemplate = [
