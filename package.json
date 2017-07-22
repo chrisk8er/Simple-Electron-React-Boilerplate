@@ -1,10 +1,10 @@
 {
   "name": "quickstart-electron-react-boilerplate",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Simple quickstart electron react boilerplate",
   "main": "main.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack-dev-server",
     "prod": "webpack -p",
     "start": "electron ."
   },
@@ -29,7 +29,8 @@
     "electron-devtools-installer": "^2.2.0",
     "html-webpack-plugin": "^2.29.0",
     "style-loader": "^0.18.2",
-    "webpack": "^3.3.0"
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
     "react": "^15.5.4",
