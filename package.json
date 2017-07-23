@@ -28,6 +28,8 @@
     "electron": "^1.6.11",
     "electron-devtools-installer": "^2.2.0",
     "html-webpack-plugin": "^2.29.0",
+    "postcss-loader": "^2.0.6",
+    "postcss-simple-vars": "^4.0.0",
     "style-loader": "^0.18.2",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1"
