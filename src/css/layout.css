@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../../assets/fonts/SourceSansPro-Regular.ttf');
+}
+
+$red: blue;
+
+h1 {
+    font-family: 'Source Sans Pro';
+    color: $red;
+}
