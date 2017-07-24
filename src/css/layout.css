@@ -3,6 +3,11 @@
     src: url('../../assets/fonts/SourceSansPro-Regular.ttf');
 }
 
+:root {
+  --color: red;
+}
+
 h1 {
     font-family: 'Source Sans Pro';
+    color: var(--color);
 }
